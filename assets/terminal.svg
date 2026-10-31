@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 270" width="920" height="270" role="img" aria-label="1337 terminal output">
+  <defs>
+    <linearGradient id="termBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0719"/>
+      <stop offset="55%" stop-color="#090b16"/>
+      <stop offset="100%" stop-color="#110922"/>
+    </linearGradient>
+    <linearGradient id="borderGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38e8ff" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0.7"/>
+    </linearGradient>
+    <filter id="softGlow" x="-15%" y="-30%" width="130%" height="160%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .cur { animation: blink 1.1s steps(2, start) infinite; }
+    @keyframes blink { to { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+
+  <!-- Outer Window Frame -->
+  <rect x="2" y="2" width="916" height="266" rx="10" fill="url(#termBg)" stroke="url(#borderGlow)" stroke-width="1.5"/>
+
+  <!-- Top Bar -->
+  <path d="M 3 12 Q 3 3 12 3 L 908 3 Q 917 3 917 12 L 917 36 L 3 36 Z" fill="#150d2a"/>
+  <line x1="3" y1="36" x2="917" y2="36" stroke="#2e1d52" stroke-width="1"/>
+
+  <!-- Window Controls (Soft Neon) -->
+  <circle cx="22" cy="19.5" r="5.5" fill="#f43f5e" opacity="0.85"/>
+  <circle cx="40" cy="19.5" r="5.5" fill="#f59e0b" opacity="0.85"/>
+  <circle cx="58" cy="19.5" r="5.5" fill="#10b981" opacity="0.85"/>
+
+  <!-- Window Title -->
+  <text x="460" y="24" text-anchor="middle" font-family="Consolas, 'JetBrains Mono', monospace" font-size="12.5" fill="#94a3b8" letter-spacing="1.5">
+    j0hnny@ph4r0s: ~/op3r4t0r — zsh (1337x270)
+  </text>
+
+  <!-- Terminal Content -->
+  <g font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-size="14">
+    <!-- Line 1: whoami -->
+    <text x="26" y="66">
+      <tspan fill="#f472b6" font-weight="700">j0hnny@ph4r0s</tspan><tspan fill="#64748b">:</tspan><tspan fill="#38e8ff">~</tspan><tspan fill="#cbd5e1">$ whoami --v3rb0s3</tspan>
+    </text>
+    <text x="26" y="90" fill="#e2e8f0">
+      <tspan fill="#38e8ff" filter="url(#softGlow)">&gt;</tspan> Инженер по информационной безопасности · OSINT-исследователь · ИИ-энтузиаст
+    </text>
+
+    <!-- Line 2: cat domains -->
+    <text x="26" y="124">
+      <tspan fill="#f472b6" font-weight="700">j0hnny@ph4r0s</tspan><tspan fill="#64748b">:</tspan><tspan fill="#38e8ff">~</tspan><tspan fill="#cbd5e1">$ cat /etc/s3cur1ty/d0m41ns.conf</tspan>
+    </text>
+
+    <text x="26" y="150">
+      <tspan fill="#38e8ff" font-weight="700">[1NF0S3C.N3T]</tspan>
+      <tspan fill="#cbd5e1">  NGFW · корп. VPN · ViPNet · DLP · Zero Trust · Hardening · Трэт-моделинг</tspan>
+    </text>
+    <text x="26" y="174">
+      <tspan fill="#f472b6" font-weight="700">[S0C.BLUE_T34M]</tspan>
+      <tspan fill="#cbd5e1">SIEM · SOAR · EDR · стек ELK · трафик- и малварь-анализ · Incident Response</tspan>
+    </text>
+    <text x="26" y="198">
+      <tspan fill="#c084fc" font-weight="700">[0S1NT.R3C0N]</tspan>
+      <tspan fill="#cbd5e1">  Цифровая криминалистика · GEOINT · SOCMINT · графы связей · атрибуция</tspan>
+    </text>
+    <text x="26" y="222">
+      <tspan fill="#fbbf24" font-weight="700">[4I.4G3NTS]</tspan>
+      <tspan fill="#cbd5e1">    Автономные LLM-агенты · ML в детекте аномалий · автоматизация рекона</tspan>
+    </text>
+
+    <!-- Line 3: prompt -->
+    <text x="26" y="250">
+      <tspan fill="#f472b6" font-weight="700">j0hnny@ph4r0s</tspan><tspan fill="#64748b">:</tspan><tspan fill="#38e8ff">~</tspan><tspan fill="#cbd5e1">$ ./status --1337 </tspan><tspan fill="#34d399">[ 0NL1N3 // R34DY F0R 0PS ]</tspan>
+    </text>
+    <rect class="cur" x="498" y="237" width="8.5" height="15" fill="#38e8ff" filter="url(#softGlow)"/>
+  </g>
+</svg>
