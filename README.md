@@ -15,19 +15,18 @@
 
 </div>
 
-> **«Любая система оставляет след, а любой периметр рано или поздно проверяют на прочность.»**  
-> Я строю эшелонированную защиту корпоративной инфраструктуры, расследую инциденты, нахожу цифровые следы в открытых источниках и создаю автономные инструменты на стыке **ИБ**, **OSINT** и **ИИ**.
+> **«Любая система оставляет след, а любой периметр рано или поздно проверяют на прочность».**
 
 <br>
 
-## ⚡ // `0x01` · Д0М3НЫ И С3КТ0РЫ
+## ⚡ // `0x01` · Домены и направления
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 **🛡️ `[1NF0S3C]` Инфраструктурная и сетевая защита**<br>
-<sub>Проектирование защищённых сегментов сети и контроль потоков данных. Промышленная эксплуатация <b>NGFW</b>, построение отказоустойчивых корпоративных VPN-сетей и криптошлюзов (включая <b>ViPNet</b>), внедрение и тонкая настройка <b>DLP-систем</b>, харденинг узлов, моделирование угроз и архитектура <b>Zero Trust</b>.</sub>
+<sub>Проектирование защищённых сегментов сети и контроль потоков данных. Промышленная эксплуатация <b>NGFW</b>, построение отказоустойчивых корпоративных VPN-сетей и криптошлюзов (включая <b>ViPNet</b>), внедрение и тонкая настройка <b>DLP-систем</b>, харденинг узлов (<b>Linux / Astra Linux</b> и <b>Windows Server / Active Directory</b>), моделирование угроз и архитектура <b>Zero Trust</b>.</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -55,24 +54,25 @@
 
 <br>
 
-## 🧰 // `0x02` · Т3ХСТ3К И 4РС3Н4Л
+## 🧰 // `0x02` · Техстек и арсенал
 
 | Сектор | Инструменты и технологии |
 |---|---|
 | 🔥 **Сеть и периметр** | `NGFW` · `ViPNet` · `IPsec / WireGuard / AmneziaWG` · `DLP` · `Zero Trust` · `TLS / PKI` |
 | 👁️ **Стек SOC & Blue Team** | `SIEM` · `SOAR` · `EDR` · `ELK Stack (Elastic / Logstash / Kibana)` · `Suricata / Zeek` · `YARA / Sigma` |
-| 🕵️ **OSINT & Анализ** | `DNS / BGP / ASN Recon` · `Maltego / графы связей` · `Wireshark / tcpdump` · `Static & Sandbox Doc Analysis` |
-| 💻 **Разработка и ИИ** | `Rust` · `Python` · `TypeScript` · `WebAssembly` · `Linux` · `Docker` · `LLM Agents / RAG` |
+| 🖥️ **ОС и инфраструктура** | `Linux` · `Astra Linux` · `Windows` · `Windows Server` · `Active Directory (AD / GPO / Kerberos)` · `Docker` |
+| 🕵️ **Пентест, OSINT & Анализ** | `Kali Linux` · `Nmap` · `Burp Suite` · `Metasploit` · `Wireshark` · `Maltego` · `BGP / ASN Recon` |
+| 💻 **Разработка и ИИ** | `Rust` · `Python` · `C#` · `Unity` · `TypeScript` · `WebAssembly` · `LLM Agents / RAG` |
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=rust,python,ts,linux,docker,bash,elasticsearch,kali,pytorch,wasm,git,neovim&theme=dark&perline=12" alt="Tech Stack" />
+<img src="https://raw.githubusercontent.com/Johnny-Wickky/Johnny-Wickky/main/assets/stack.svg" alt="Tech Stack & Security Arsenal" width="100%" />
 
 </div>
 
 <br>
 
-## 🚀 // `0x03` · ПР03КТЫ [@team-ph4r0s](https://github.com/team-ph4r0s)
+## 🚀 // `0x03` · Проекты [@team-ph4r0s](https://github.com/team-ph4r0s)
 
 <table>
 <tr>
